@@ -1,0 +1,19 @@
+
+there are a lot of warnings in the compilation output. i'd like to get rid of
+them. they appear to be connected to not having the recipes in sections? but
+that's bullshit.
+
+the linking inside the document doesn't work that well. all the links in a
+section jump to the head of that section, not to the actual recipe.
+
+i'm not convinced that having the perl in its own file is the right way to do
+this, or that i've written the best perl possible. maybe some unix hackery or
+make stuff would better?
+
+i should make the list.pl file aware of sections, subsections, etc. i'm not
+sure if file::find is robust enough to do this or if i need more access to the
+guts of the recusrion.
+
+it might be worth it to write list.pl in a much more general way, as a module
+that maps directories to tex. something to think about. may end up doing it
+either way.

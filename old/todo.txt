@@ -1,0 +1,8 @@
+this massive cookbook.tex file should be refactored before commiting it to SVN
+to share with graham. it would be nice if the directory structure mirrored the
+internal strucutre of the document.
+
+i'm not sure if it should be one recipie per file. certainly the granularity
+shouldn't be any lower than that. that allows the most flexibility with
+eventual structures of the document, and makes automated refactoring less
+painful. the recipies should never change; just their order.
