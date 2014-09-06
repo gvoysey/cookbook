@@ -1,8 +1,11 @@
 \documentclass{book}
-\usepackage[bookmarks=true,colorlinks=true]{hyperref}
+\usepackage[hyphens]{url}
+\usepackage[bookmarks=true,colorlinks=true,breaklinks]{hyperref}
 \usepackage[nonumber,index]{cuisine}
 \title{Collected Voysey \& Co. Recipes}
 \author{Ian Voysey, Graham Voysey, Vincent Zeng}
+
+\makeatletter \g@addto@macro\UrlSpecials{\do\!{\newline}}
 
 \begin{document}
 \maketitle
